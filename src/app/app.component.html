@@ -1,0 +1,18 @@
+<table>
+  <thead>
+      <tr>
+          <th>API</th>
+          <th>Description</th>
+          <th>Category</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let d of data" *ngClass="d.hidden? 'visibility":""  >
+          <td>{{d.API}}</td>
+          <td>{{d.Description}}</td>
+          <td>{{d.Category}}</td>
+           <td><button click="d.hidden!=true" >toggle</button></td>
+      </tr>
+  </tbody>
+</table>
+

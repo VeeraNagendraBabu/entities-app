@@ -1,0 +1,7 @@
+table tbody tr:hover{
+    color:orange;
+}
+
+.hiddenRow {
+visibility: hidden;
+}
